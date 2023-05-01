@@ -93,6 +93,14 @@ a[href]:hover {
 	color: #ffff88;
 }
 
+hr {
+	height: 10px;
+	background: transparent;
+/*	border: none;
+	width: 100%;
+	margin: 0px;*/
+}
+
 footer {
 	margin-top: 20%;
 }
