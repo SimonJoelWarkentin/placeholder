@@ -20,44 +20,45 @@ body {
 
 
 
-
+/*
 img {
 	max-width: 100%;
 }
 
- button {
-    background-color: #222235;
-    border: #d8d8d8;
-    border-radius: 40px;
-    color: #aaa;
-    cursor: pointer;
-    display: inline-block;
-    margin: 10px;
-    padding: 10px 20px;
-    height: 120px;
+button {
+	background-color: #222235;
+	border: #d8d8d8;
+	border-radius: 40px;
+	color: #aaa;
+	cursor: pointer;
+	display: inline-block;
+	margin: 10px;
+	padding: 10px 20px;
+	height: 120px;
 	width: 120px;
-    transition: background-color 0.3s ease-in-out;
-  }
+	transition: background-color 0.3s ease-in-out;
+}
 
-  #btn { /*maybe not necessary*/
-    z-index: 5;
-    margin: 0 10px;
-    cursor: pointer;
+#btn {
+	z-index: 5;
+	margin: 0 10px;
+	cursor: pointer;
 	transition: 0.2s;
-  }
+}
 
-  #btn img {
-    transition: 0.2s;
-  }
+#btn img {
+	transition: 0.2s;
+}
 
-  #btn img:hover {
-  }
+#btn img:hover {
+}
 
-  #btn:hover {
+#btn:hover {
 	opacity: 0.8;
 	transform: scale(1.05);
 	color: #eee;
-  }
+}
+*/
 
 h1 {
 	font-size: 40px;
@@ -96,9 +97,9 @@ a[href]:hover {
 hr {
 	height: 10px;
 	background: transparent;
-/*	border: none;
+	border: none;
 	width: 100%;
-	margin: 0px;*/
+	margin: 0px;
 }
 
 footer {
