@@ -5,6 +5,11 @@
 	box-sizing: border-box;
 }
 
+::selection {
+    color: #222;
+    background: #ccc;
+}
+
 header {
 	margin-top: 15%;
 }
@@ -13,7 +18,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	line-height: 1.75em;
 	font-size: 16px;
-	background-color: #222235;
+	background-color: #282828;
 	color: #eee;
 	text-align: center;
 }
@@ -30,9 +35,6 @@ body {
 	transition: 0.2s;
 }
 
-#btn img:hover {
-}
-
 #btn:hover {
 	opacity: 0.8;
 	transform: scale(1.05);
@@ -47,7 +49,7 @@ h1 {
 
 p {
 	font-size: 16px;
-	color: #9967ff;
+	color: #999;
 }
 
 h3 {
@@ -57,12 +59,13 @@ h3 {
 a {
 	font-size: 10px;
 	text-decoration: none;
-	color: #9967ff;
+	color: #888;
 	transition: 0.4s;
 }
 
 a[href]:hover {
-	color: #ffff88;
+	text-decoration: underline;
+	color: #fff;
 }
 
 hr {
